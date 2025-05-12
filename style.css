@@ -1,0 +1,94 @@
+/* Resetando margens e paddings */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Corpo da página */
+body {
+  font-family: 'Georgia', serif;
+  background-color: #fbe8f0;
+  color: #333;
+  line-height: 1.6;
+  text-align: center;
+}
+
+header {
+  background-color: #d398ac;
+  padding: 20px 0;
+  border-bottom: 2px solid #d49eae;
+}
+
+header .logo h1 {
+  font-family: 'Cursive', sans-serif;
+  color: #dcd1e2;
+}
+
+nav ul {
+  list-style: none;
+  margin-top: 20px;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #fff2fd;
+  font-weight: bold;
+  font-size: 18px;
+  transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+  color: #d6cddd;
+}
+
+main {
+  padding: 50px 20px;
+}
+
+.intro h2 {
+  font-size: 2.5rem;
+  color: #9b2d58;
+  margin-bottom: 20px;
+}
+
+.intro p {
+  font-size: 1.2rem;
+  color: #7f4d68;
+  margin-bottom: 30px;
+}
+
+.cta .button {
+  background-color: #bd8ecc;
+  color: white;
+  padding: 15px 25px;
+  text-decoration: none;
+  border-radius: 30px;
+  font-size: 1.2rem;
+  transition: background-color 0.3s ease;
+}
+
+.cta .button:hover {
+  background-color: #9b2d58;
+}
+
+footer {
+  background-color: #f1c6d4;
+  padding: 10px 0;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
+
+footer p {
+  font-size: 1rem;
+  color: #333;
+}
+
+img {max-width: 100px; }
+
